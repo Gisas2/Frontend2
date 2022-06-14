@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row d-flex form-cadastro justify-content-center p-3">
+            <div class="col-md-6 area-form">
+                <div class="row form-image">
+                    <img src="./images/paginarecados.jpg" alt="">
+                </div>
+                <div class="form">
+                    <form class="form-group" id="formulario">
+                        <h2 class="text-center mt-4">CRIAR CONTA</h2>
+
+                    <div class="input-group mt-2">
+                        <label for="input-email" class="form-label" id="label-email">Email</label>
+                        <input type="email" class="form-control" placeholder="E-mail" id="email">
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="input-senha" class="form-label" id="label-senha">Senha</label>
+                        <input type="password" class="form-control" placeholder="Senha" id="senha">
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="input-repSenha" id="label-repsenha">Confirme a senha</label>
+                        <input type="password" class="form-control" placeholder=" Repita a Senha" id="repsenha">
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <button type="submit" class="btn btn-block mt-2" id="criar-conta">CRIAR CONTA AGORA</button>
+                        </div>
+                    </div>    
+                    </form>
+                </div>    
+            </div>
+        </div>    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+    <script src="./js/cadastro.js"></script>
+</body>
+</html>
